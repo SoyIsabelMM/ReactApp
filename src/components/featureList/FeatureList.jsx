@@ -1,4 +1,4 @@
-export default function FeatureList() {
+export default function FeatureList({ id }) {
   const projectFeature = [
     {
       title: 'HTML Semántico',
@@ -20,15 +20,19 @@ export default function FeatureList() {
     },
   ];
   return (
-    <section className=" bg-gray-200 border   border-zinc-300 rounded-lg p-8 my-12 mx-5 hover:shadow-lg">
-      <h3 className="text-2xl font-bold mb-6 text-black ">
-        Características del Proyecto
-      </h3>
+    <section
+      id={id}
+      className=" bg-gray-200 border   text-black   border-zinc-300 rounded-lg p-8 my-12 mx-5 hover:shadow-lg"
+    >
+      <h3 className="text-2xl font-bold mb-6">Características del Proyecto</h3>
       <ul className="space-y-3">
         {projectFeature.map((feature, index) => (
-          <li key={feature.title} className="flex items-start gap-3">
+          <li
+            key={`${feature.title}-${index}`}
+            className="flex items-start gap-3"
+          >
             <span className="text-blue-900 text-xl">✓</span>
-            <span className=" text-gray-500">
+            <span className=" text-gray-600 ">
               <strong className="text-black">{feature.title}:</strong>{' '}
               {feature.description}
             </span>
