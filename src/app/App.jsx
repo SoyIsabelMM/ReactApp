@@ -2,6 +2,9 @@ import '../components/header/Header.jsx';
 import { useState } from 'react';
 import Header from '../components/header/Header.jsx';
 import ThemeToggle from '../components/themeToggle.jsx/ThemeToggle.jsx';
+import IntroSection from '../components/introSection/IntroSection.jsx';
+import CardGrid from '../components/cardGrid/CardGrid.jsx';
+import ThemeCard from '../components/themeCard/ThemeCard.jsx';
 
 function App() {
   const [theme, setTheme] = useState('light');
@@ -15,6 +18,25 @@ function App() {
         <Header>
           <ThemeToggle theme={theme} onToggle={toggleTheme} />
         </Header>
+        <IntroSection />
+        <CardGrid>
+          <ThemeCard
+            title="Componentes React"
+            icon="🧩"
+            description="Esta app está construida con múltiples componentes reutilizables: App, ThemeCard y ThemeToggle."
+          />
+          <ThemeCard
+            title="Hook useState"
+            icon="🪝"
+            description="Usamos useState para mantener el estado del tema actual y actualizarlo cuando el usuario hace clic."
+          />
+
+          <ThemeCard
+            title="CSS Condicional"
+            icon="🎨"
+            description="Los estilos cambian dinámicamente aplicando la clase 'dark' al contenedor principal según el estado."
+          />
+        </CardGrid>
       </main>
     </div>
   );
