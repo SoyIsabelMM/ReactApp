@@ -6,8 +6,8 @@ export default function Header({ children }) {
           <h1 className="text-2xl font-bold font-sans">Cambiador de tema</h1>
           <p className="text-s text-zinc-500 ">Proyecto educativo react</p>
         </div>
+        {children}
       </div>
-      {children}
     </header>
   );
 }
