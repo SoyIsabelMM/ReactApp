@@ -34,36 +34,48 @@ La aplicación está construida en base a componentes de React, siguiendo una fi
 - Node.js 18.x o superior
 - npm o pnpm instalado
 
+## Installation
+
 1. **Descargar el proyecto**
 
-   - En GitHub haz clic en <code> escoge la opción que más te acomode, por ejemplo _https_ y copia el link
-   - En tu terminal usa el comando
-     \`\`\` git clone "pega_el_https_copiado_en_github"
-   - ejecuta
-     \`\`\` git init
+- En GitHub haz clic en CODE escoge la opción que más te acomode, por ejemplo _https_ y copia el link
 
-   2. **Instalar dependencias**
-      \`\`\`bash
-      npm install
+```bash
+git clone "pega_el_https_copiado_en_github"
+git init
+```
 
-   # o
+- 2 **Instalar dependencias**
 
-   pnpm install
-   \`\`\` 3. **Ejecutar en modo desarrollo**
-   \`\`\`bash
-   npm run dev
+```bash
+npm install
+```
 
-   # o
+o
 
-   pnpm dev
-   \`\`\`
+```bash
+pnpm install
+```
 
-   4. **Abrir en el navegador**
+3. **Ejecutar en modo desarrollo**
 
-   - Visita [http://localhost:3000](http://localhost:3000)
-     </code>
+```bash
+ npm run dev
+```
 
-   ## 🎨 Características Técnicas
+o
+
+```bash
+ pnpm dev
+```
+
+4.  **Abrir en el navegador**
+
+```bash
+ - Visita [http://localhost:3000](http://localhost:3000)
+```
+
+## 🎨 Características Técnicas
 
 - **Lenguaje:** JavaScript (JSX)
 - **Estilos:** Tailwind CSS v4
