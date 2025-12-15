@@ -2,7 +2,8 @@
 
 @import 'tailwindcss';
 
-@theme {
+:root {
   --font-sans: 'Geist', sans-serif;
   --font-mono: 'Geist Mono', monospace;
+  --foreground: oklch(0.95 0.01 250);
 }
