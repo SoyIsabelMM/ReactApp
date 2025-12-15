@@ -1,6 +1,6 @@
 export default function IntroSection() {
   return (
-    <div className="max-w-6xl mx-auto px-4 sm:px-6 lg:px8 pt-12">
+    <section className="max-w-6xl mx-auto px-4 sm:px-6 lg:px8 pt-12">
       <div className="text-center mb-12">
         <h2 className="text-4xl font-bold mb-4 text-balance">
           Aprende React con Componentes y Estados
@@ -14,6 +14,6 @@ export default function IntroSection() {
           para manejar el estado y aplicar estilos condicionales
         </p>
       </div>
-    </div>
+    </section>
   );
 }
