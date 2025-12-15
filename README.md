@@ -49,11 +49,9 @@ La aplicación está construida en base a componentes de React, siguiendo una fi
    # o
 
    pnpm install
-   \`\`\`
-
-   3. **Ejecutar en modo desarrollo**
-      \`\`\`bash
-      npm run dev
+   \`\`\` 3. **Ejecutar en modo desarrollo**
+   \`\`\`bash
+   npm run dev
 
    # o
 
@@ -63,6 +61,7 @@ La aplicación está construida en base a componentes de React, siguiendo una fi
    4. **Abrir en el navegador**
 
    - Visita [http://localhost:3000](http://localhost:3000)
+     </code>
 
    ## 🎨 Características Técnicas
 
